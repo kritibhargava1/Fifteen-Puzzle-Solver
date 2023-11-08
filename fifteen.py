@@ -1,16 +1,7 @@
-# assignment: Programming Assignment 5
-# author: Kriti Bhargava
-# date: 03/17/23
-# file: fifteen.py
-# input: a number the user want to move on the board to an empty square
-# output: an updated board with the correct number on the correct square
-
-# Import the necessary functions from the existing code
 import numpy as np
 from random import choice
 
 #uses a NumPy array to represent the tiles on the board and has methods to shuffle the board, make moves, and check if the puzzle is solved
-#
 class Fifteen:
     #initialize new instance of fifteen game
     def __init__(self, size=4):
