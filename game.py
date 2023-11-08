@@ -1,12 +1,3 @@
-# assignment: Programming Assignment 5
-# author: Kriti Bhargava
-# date: 03/17/23
-# file: game.py game GUI
-# input: user can choose to shuffle the board as many times as they want and input number thay want to move to square
-# output: update game board(GUI) with the inoput in the correct square
-# Import the necessary functions from the existing code
-
-
 from tkinter import *
 import tkinter.font as font
 from fifteen import Fifteen
