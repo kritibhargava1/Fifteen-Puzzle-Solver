@@ -1,15 +1,3 @@
-# assignment: Programming Assignment 5
-# author: Kriti Bhargava
-# date: 03/17/23
-# file: graph.py
-# input: None
-# output: None
-# Import the necessary functions from the existing code
-
-#defines two classes, Vertex and Graph, for representing a graph and its vertices
-#defines methods for adding neighbors, returning a list of connected vertices, and performing a breadth-first search on the graph
-#defines methods for adding vertices and edges to the graph, getting vertices and their connections,and performing depth-first search on the graph
-
 from collections import deque
 class Vertex:
     def __init__(self, key):
